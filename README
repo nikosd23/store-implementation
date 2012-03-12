@@ -1,0 +1,3 @@
+This project intends to provide a servicemix store implementation using Google Guava Cache Library.
+The main objective is to explore guava's functionality concerning cache bulk bootstrapping (both synchronous and asynchronous) and expiration mechanisms.
+Also it needs to be backed up by a file storage in case of application restarts.

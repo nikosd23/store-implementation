@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.testing.guava.cache</groupId>
+	<artifactId>store-implementation</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>ServiceMix Store Implementation Using GoogleGuava Library</name>
+
+	<properties>
+		<guava.version>11.0.1</guava.version>
+		<servicemix-utils.version>1.5.0</servicemix-utils.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>${guava.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.servicemix</groupId>
+			<artifactId>servicemix-utils</artifactId>
+			<version>${servicemix-utils.version}</version>
+		</dependency>
+	</dependencies>
+</project>
